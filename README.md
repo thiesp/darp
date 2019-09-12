@@ -1,5 +1,16 @@
 # Darp
 
+
+## Discontinued
+
+The gem is discontinued. There are some issues with it not respecting the database pool allocations of active record, resulting in random database pool errors through out the rails projekt. That has to be addressed before darp can be used for production purposes.
+
+Further, I yanked darp (0.1.0) from rubygems as I got some security alerts due to some of its dependencies.
+
+In my company we currently have no need for this gem. If that changes I might resurrect it at that point.
+
+# Previous description
+
 ## Installation
 Add this line to your application's Gemfile:
 
